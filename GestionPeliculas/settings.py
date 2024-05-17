@@ -82,7 +82,7 @@ DATABASES = {
         'CLIENT': {
             'host': 'mongodb+srv://Paladinez:Xy12345@cluster0.vhvbcg7.mongodb.net/gestionPeliculas?retryWrites=true&w=majority&appName=Cluster0'
         }
-    }
+    },
 }
 
 

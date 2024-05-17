@@ -38,8 +38,10 @@
                     <a href="/consultarPelicula/{{p.pk}}">
                         <button class="btn btn-outline-warning"><ion-icon name="create-outline"></ion-icon></button>
                     </a>
-                    <button class="btn btn-outline-danger" onclick="eliminarPelicula('{{p.pk}}')"><ion-icon
-                            name="trash-outline"></ion-icon></button>
+                    <a href="/eliminarPelicula/{{p.pk}}">
+                        <button class="btn btn-outline-danger" onclick="eliminarPelicula('{{p.pk}}')"><ion-icon
+                                name="trash-outline"></ion-icon></button>
+                    </a>
                 </td>
             </tr>
             {% endfor %}
